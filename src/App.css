@@ -34,7 +34,15 @@ button {
 }
 
 .artist-list {
-  /* align-self: flex-start; */
+  align-self: center;
+  margin-top: 24px;
+  width: 400px;
   text-align: left;
+  /* align-self: flex-start; */
+  /* text-align: left; */
   margin-left: 16px;
+}
+
+.artist-list h3 {
+  text-align: center;
 }
