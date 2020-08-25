@@ -1,21 +1,15 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  background-color: #4D50AD;
+  min-height: 160px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,11 +22,19 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  margin-left: 10px;
+}
+
+button {
+  display: inline;
+  margin: 8px;
+  /* height: 24px;
+  width: 32px; */
+}
+
+.artist-list {
+  /* align-self: flex-start; */
+  text-align: left;
+  margin-left: 16px;
 }
